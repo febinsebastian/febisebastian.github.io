@@ -292,6 +292,29 @@ ul.holder li.left {
     min-height: 500px;
     background: transparent;
 }
+.portfolio-wrapper{
+	position: relative;
+}
+.portfolio-wrapper .title{
+	position: absolute;
+	top: 40px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-size: 26px;
+	font-family: allerRegular;
+}
+.portfolio-wrapper .github-btn{
+	position: absolute;
+	bottom: 10px;
+	border-radius: 0;
+	width: 150px;
+	left: 40%;
+	font-size: 25px;	
+	font-family: allerRegular;
+	color: rgb(255, 255, 255);
+    background-color: #42cc39;
+    border: 1px solid #42cc39;
+}
 @media(max-width:768px){
 	ul.holder li:before, .holder:before, ul.holder li:after {
 		display: none;
